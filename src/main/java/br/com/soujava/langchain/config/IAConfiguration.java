@@ -1,5 +1,6 @@
 package br.com.soujava.langchain.config;
 
+import dev.langchain4j.data.document.DocumentSplitter;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.memory.chat.ChatMemoryProvider;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
@@ -17,7 +18,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class DatabaseConfiguration {
+public class IAConfiguration {
     public static final int MAX_MESSAGES = 10;
     public static final int MAX_RESULTS = 3;
     public static final double MIN_SCORE = 0.7;
